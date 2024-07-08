@@ -11,7 +11,7 @@ int main(){
 
     // Challenge: Write your OR weights
     
-    p.set_weights({10,10,-15}); // AND
+    p.set_weights({15,15,-10}); // AND
 
     std::cout << "Gate: " << std::endl;
     std::cout << p.run({0,0}) << std::endl;
